@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Bitter;
+    src: url(../fonts/Bitter/static/Bitter-Regular.ttf);
+    font-weight: 400;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.navigation-link {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navigation-link:hover {
+    text-decoration: underline
+}
+.hero-titel {
+    color: black;
+    font-size: 86px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 103.20px;
+    word-wrap: break-word
+}
+.hero-description {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+.biography {
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.biography-name {
+    color: black;
+    font-size: 86px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    word-wrap: break-word
+}.biography-description{
+    color: #0D0D0D;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+.biography-list {
+    color: #0D0D0D;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+.quote {
+    color: #0D0D0D;
+    font-size: 26px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.designers {
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.designer-name-1 {
+    color: black;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+word-wrap: break-word
+}
+.from-designer {
+color: black;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+word-wrap: break-word
+}
+.from {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.skills {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.skills-list {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.designer-name-2 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+.designer-name-3 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+.testimonials {
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.web {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+.website {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-decoration: none;
+    text-transform: none;
+}
+.creativity {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+.motto {
+    color: black;
+    font-size: 32px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.strong-points {
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.strengths {
+    color: black;
+    font-size: 86px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 86px;
+    word-wrap: break-word
+}
+.interiors {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.outdoors {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.portraits {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.styling {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.events {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.architecture {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.design {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.celebrations {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.fashion {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.nature {
+    color: black;
+    font-size: 34px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
