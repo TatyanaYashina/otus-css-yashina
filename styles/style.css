@@ -15,15 +15,49 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 16px;
 }
-.navigation-link {
+.navigation-block {
+    width: auto;
+    height: 135px;
+    text-align: right;  
+    padding: 54px 20px;   
+    box-sizing:border-box;
+    
+}
+ul li{
+    
+    height: 28px;  
+    display: inline;
+    padding-left: 55px;
+    /* display: inline-block */
+    
+}
+.navigation-link{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 24px;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: none;   
 }
 .navigation-link:hover {
     text-decoration: underline
+}
+
+.hero-block {
+    width: 100%;
+    height: 630px;
+    background-image: url(../img/background-hero.jpg);
+    padding-top: 1px;
+}
+.hero {
+    box-sizing: content-box;
+    width: 690px;
+    height: auto;
+    padding: 110px 20px;
+    background: white;
+    margin: 136px 375px 134px 375px;
+    text-align: center;
+
+
 }
 .hero-titel {
     color: black;
@@ -31,7 +65,9 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     line-height: 103.20px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-bottom: 14px;
+    
 }
 .hero-description {
     color: black;
