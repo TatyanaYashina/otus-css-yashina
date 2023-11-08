@@ -19,18 +19,18 @@ body{
     width: auto;
     height: 135px;
     text-align: right;  
-    padding: 54px 20px;   
+    padding: 54px 0 54px 20px;   
     box-sizing:border-box;
-    
+    margin: 0 20px 0 23px;
+        
 }
 ul li{
     
     height: 28px;  
     display: inline;
-    padding-left: 55px;
-    /* display: inline-block */
-    
+    padding-left: 55px;    
 }
+
 .navigation-link{
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -46,7 +46,11 @@ ul li{
     width: 100%;
     height: 630px;
     background-image: url(../img/background-hero.jpg);
-    padding-top: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 23%;
+    
 }
 .hero {
     box-sizing: content-box;
@@ -56,6 +60,10 @@ ul li{
     background: white;
     margin: 136px 375px 134px 375px;
     text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -345px;
+    
 
 
 }
