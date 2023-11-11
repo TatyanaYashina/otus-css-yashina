@@ -24,7 +24,7 @@ body{
     margin: 0 20px 0 23px;
         
 }
-ul li{
+.navigation-item {
     
     height: 28px;  
     display: inline;
@@ -39,7 +39,7 @@ ul li{
     text-decoration: none;   
 }
 .navigation-link:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .hero-block {
@@ -63,10 +63,8 @@ ul li{
     position: absolute;
     left: 50%;
     margin-left: -345px;
-    
-
-
 }
+
 .hero-titel {
     color: black;
     font-size: 86px;
@@ -75,7 +73,6 @@ ul li{
     line-height: 103.20px;
     word-wrap: break-word;
     margin-bottom: 14px;
-    
 }
 .hero-description {
     color: black;
@@ -97,7 +94,8 @@ ul li{
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     word-wrap: break-word
-}.biography-description{
+}
+.biography-description{
     color: #0D0D0D;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
