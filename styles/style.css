@@ -179,7 +179,7 @@ body{
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .designer-name-1 {
     color: black;
@@ -233,12 +233,75 @@ word-wrap: break-word
     text-transform: uppercase;
     word-wrap: break-word
 }
+
+.testimonials-section {
+    height: 760px;
+    display: grid;
+    grid-template-columns:  7.6% 35% 11% 35% 118px ;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 119px;
+    margin: 0 20px 0 20px;
+}
+.testimonials-title {
+    position: relative;
+}
+
 .testimonials {
     color: black;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    word-wrap: break-word
+    word-wrap: break-word;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    transform: rotate(-90deg); 
+    width: 140px;
+    height: 28px;
+    position: absolute;
+    right: 25%;
+    top: 23%;
+}
+.img-left-testimonial {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    height: 760px;
+}
+.img-testimonial {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+.webs {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    display: grid;
+    row-gap: 70px;
+    grid-template-columns: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+.web-1,
+.web-2,
+.web-3 {
+    width: 190px;
+    height: 49px;
+    transform: rotate(-90deg); 
+    
+}
+.web-1 {
+    position: absolute;
+    left: -30%;
+    top: 15%;
+}
+.web-2 {
+    position: absolute;
+    left: -30%;
+    top: 45%;
+}
+.web-3 {
+    position: absolute;
+    left: -30%;
+    top: 75%;
 }
 .web {
     color: black;
@@ -265,12 +328,23 @@ word-wrap: break-word
     text-transform: capitalize;
     word-wrap: break-word
 }
+.right-section-testimonials {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    row-gap: 42px;
+
+}
 .motto {
     color: black;
     font-size: 32px;
     font-family: 'Bitter', serif;
     font-weight: 400;
-    word-wrap: break-word
+    /* word-wrap: break-wordp; */
+    text-align: center;
+    width: 221px;
 }
 .strong-points {
     color: black;
