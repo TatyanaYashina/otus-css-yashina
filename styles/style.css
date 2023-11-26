@@ -183,11 +183,11 @@ body{
 }
 .designer-name-1 {
     color: black;
-font-size: 16px;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-text-transform: uppercase;
-word-wrap: break-word
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word
 }
 .from-designer {
 color: black;
@@ -242,9 +242,9 @@ word-wrap: break-word
     padding-left: 119px;
     margin: 0 20px 0 20px;
 }
-.testimonials-title {
+/* .testimonials-title {
     position: relative;
-}
+} */
 
 .testimonials {
     color: black;
@@ -254,12 +254,13 @@ word-wrap: break-word
     word-wrap: break-word;
     grid-column: 3/4;
     grid-row: 1/4;
-    transform: rotate(-90deg); 
+    transform: translate(-50px, 60px) rotate(-90deg); 
     width: 140px;
     height: 28px;
-    position: absolute;
+    /* position: absolute;
     right: 25%;
-    top: 23%;
+    top: 23%; */
+    
 }
 .img-left-testimonial {
     grid-column: 2/3;
@@ -276,9 +277,11 @@ word-wrap: break-word
     grid-row: 1/4;
     display: grid;
     row-gap: 70px;
-    grid-template-columns: 100%;
+    /* grid-template-columns: 100%; */
     padding: 20px 0;
-    position: relative;
+    /* position: relative; */
+    align-content: space-around;
+    justify-content: center;
 }
 .web-1,
 .web-2,
@@ -288,21 +291,21 @@ word-wrap: break-word
     transform: rotate(-90deg); 
     
 }
-.web-1 {
+/* .web-1 {
     position: absolute;
     left: -30%;
     top: 15%;
-}
-.web-2 {
+} */
+/* .web-2 {
     position: absolute;
     left: -30%;
     top: 45%;
-}
-.web-3 {
+} */
+/* .web-3 {
     position: absolute;
     left: -30%;
     top: 75%;
-}
+} */
 .web {
     color: black;
     font-size: 16px;
