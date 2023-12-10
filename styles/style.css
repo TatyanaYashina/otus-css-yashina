@@ -297,7 +297,7 @@ word-wrap: break-word
     grid-template-columns:  7.6% 35% 11% 35% 118px ;
     grid-template-rows: 1fr 1fr 1fr;
     padding-left: 119px;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 150px 20px;
 }
 /* .testimonials-title {
     position: relative;
@@ -406,12 +406,31 @@ word-wrap: break-word
     text-align: center;
     width: 221px;
 }
+.section-strong-points {
+    margin: 0 0 140px 20px;
+}
+.content-strong-points {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+@supports (display: grid) {
+    .content-strong-points {
+        display: grid;
+        grid-template-columns: 335px 335px 451px 335px;
+        grid-template-rows: 554px;
+        gap: 20px;
+    }
+}
 .strong-points {
     color: black;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-left: 238px;
+    margin-bottom: 30px;
+    width: 333px;
 }
 .strengths {
     color: black;
@@ -421,73 +440,35 @@ word-wrap: break-word
     line-height: 86px;
     word-wrap: break-word
 }
-.interiors {
+.strengths-item {
     color: black;
     font-size: 34px;
     font-family: 'Bitter', serif;
     font-weight: 400;
-    word-wrap: break-word
+    word-wrap: break-word;
+    list-style-type: none;
 }
-.outdoors {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
+.photo-strong-points {
+    width: 335px;
+    height: 554px;
+    
 }
-.portraits {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
+.textelement-strong-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 0 9px 18px 9px;
+    width: 451px;
+    flex-shrink: 0;
+    justify-content: center;
 }
-.styling {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.events {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.architecture {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.design {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.celebrations {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.fashion {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
-}
-.nature {
-    color: black;
-    font-size: 34px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    word-wrap: break-word
+@supports (display: grid) {
+    .textelement-strong-points {
+        display: grid;
+        grid-template-columns: 451px;
+        grid-template-rows: 86px 422px;
+        justify-content: center;
+        justify-items: center;
+        gap: 28px;
+    }
 }
