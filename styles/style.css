@@ -495,7 +495,7 @@ word-wrap: break-word
         padding-left: 0;
     }
     .hero-block, 
-    .biography-section,{
+    .biography-section {
         margin-bottom: 50px;
     }
     .hero-block {
