@@ -417,7 +417,7 @@ word-wrap: break-word
 @supports (display: grid) {
     .content-strong-points {
         display: grid;
-        grid-template-columns: 335px 335px 451px 335px;
+        grid-template-columns: 335px 335px 433px 335px;
         grid-template-rows: 554px;
         gap: 20px;
     }
@@ -458,17 +458,127 @@ word-wrap: break-word
     flex-wrap: wrap;
     gap: 28px;
     padding: 0 9px 18px 9px;
-    width: 451px;
+    width: 433px;
     flex-shrink: 0;
     justify-content: center;
 }
 @supports (display: grid) {
     .textelement-strong-points {
         display: grid;
-        grid-template-columns: 451px;
+        grid-template-columns: 433px;
         grid-template-rows: 86px 422px;
         justify-content: center;
         justify-items: center;
         gap: 28px;
     }
 }
+@media screen and (max-width: 900px) {
+    .navigation-block {
+        padding: 25px 0 25px 0;
+        height: auto;
+    }
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+
+    }
+    .navigation-link, 
+    .biography, 
+    .quote, 
+    .designers, 
+    .testimonials, 
+    .strong-points {
+        font-size: 20px;
+    }
+    .navigation-item {
+        padding-left: 0;
+    }
+    .hero-block, 
+    .biography-section,{
+        margin-bottom: 50px;
+    }
+    .hero-block {
+        height: 500px;
+    }
+    .hero {
+        padding: 40px 0;
+                
+    }
+    .hero-titel, 
+    .biography-name,
+    .strengths {
+        font-size: 73px;
+    }
+    .hero-description {
+        font-size: 18px;
+    }
+    .biography-section {
+        display: flex;
+        gap: 30px;  
+        margin-left: 10px;
+    }
+    .biography {
+        right: 87%;
+    }
+    .left-column {
+        height: auto;
+        width: 45%;
+    }
+    .right-column {
+        height: auto;
+        gap: 10px;
+        width: 47%;
+    }
+    .biography-description {
+        font-size: 16px;
+        width: 100%;
+        
+    }
+    .designers-section {
+        margin-left: 10px;
+    
+    }
+    .designer-name-1,
+    .designer-name-2,
+    .designer-name-3, 
+    .from,
+    .from-designer,
+    .skills,
+    .skills-list {
+        font-size: 14px;
+    }
+    .designers-section {
+        gap: 10px;
+        margin-bottom: 50px;        
+     }
+    .content-designers-section {
+        gap: 5px;
+    } 
+    .testimonials-section {
+        padding-left: 10px;
+        height: 700px;
+        margin: 0 0 50px 20px;
+        display: grid;
+        grid-template-columns: 7.6% 35% 7% 44% 40px;
+        grid-template-rows: 1fr 1fr 1fr;
+    } 
+    .webs {
+        row-gap: 10px;
+    }
+    .motto, 
+    .strengths-item {
+        font-size: 26px;
+    }
+    .right-section-testimonials {
+        gap: 20px;
+    }
+    .section-strong-points {
+        margin-left: 10px;
+    }
+    .textelement-strong-points {
+        order: -1;
+        width: 100%;
+    }
+}    
+
