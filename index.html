@@ -7,17 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Playfair+Display:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Playfair+Display:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&family=Playfair+Display:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <nav class="navigation-block">
         <ul class="nav-item">
-            <li class="navigation-item"><a class="navigation-link" href="#Biography">Biography</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#Designers">Designers</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#Testimonials">Testimonials</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#StrongPoints">Strong points</a></li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#Biography">B<span class="invisible-phone">iography</span></a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#Designers">D<span class="invisible-phone">esigners</span></a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#Testimonials">T<span class="invisible-phone">estimonials</span></a>
+            </li>
+            <li class="navigation-item">
+                <a class="navigation-link" href="#StrongPoints">S<span class="invisible-phone">trong points</span></a>
+            </li>
         </ul>
     </nav>
     <main class="hero-block">
@@ -32,17 +41,19 @@
         </div>
         <div class="right-column">
             <h2 class="biography" id="Biography">Biography</h2>
-            <p class="biography-name">Katya<br>Mills</p>
-            <h3 class="biography-description">Art Director<br>Scenography / Styling / Creative Photography / Design / </h3>
-            <!-- <ul class="biography-list">
-                <li>Scenography /</li>
-                <li> Styling /</li>
-                <li>Creative Photography/ </li>
-                <li>Design /</li>
-            </ul> -->
-            <div>
-                <div id="rectangle"></div>
-                <blockquote class="quote">“The more I deal with the work <br>as something that is my own,  <br>as something that is personal, <br>the more successful it is.”</blockquote>
+            <p class="biography-name"> <span class="invisible-desktop">-</span>Katya Mills</p>
+            <!-- <h3 class="biography-description">Art Director </h3> -->
+                <!-- <br>Scenography / Styling / Creative Photography / Design / </h3> -->
+            <ul class="biography-description">     
+                <li>Art Director</li>      
+                <li> <span class="invisible-desktop">-</span> Scenography <span class="invisible-phone">/</span> </li>
+                <li> <span class="invisible-desktop">-</span> Styling <span class="invisible-phone">/</span> </li>
+                <li> <span class="invisible-desktop">-</span> Creative Photography <span class="invisible-phone">/</span> </li>
+                <li> <span class="invisible-desktop">-</span> Design <span class="invisible-phone">/</span> </li>
+            </ul>
+            <div class="quote-sontainer">
+                <div id="rectangle" class="invisible-phone"></div>
+                <blockquote class="quote">“The more I deal with the work as something that is my own,  as something that is personal, the more successful it is.”</blockquote>
             </div>
         </div>
     </section>
@@ -107,8 +118,10 @@
             </p>
         </div>    
         <div class="right-section-testimonials">
-            <p class="motto">I just really want to do good work <br>and work with some great people, people who challenge me.</p>
-            <img src="./img/Testimonials-2.jpg" alt="Testimonials-2">
+            <p class="motto">I just really want to do good work and work with some great people, people who challenge me.</p>
+            <div class="img-right-testimonial">
+                <img class="pool" src="./img/Testimonials-2.jpg" alt="Testimonials-2">
+            </div>    
         </div>
     </section>
     <section class="section-strong-points">
