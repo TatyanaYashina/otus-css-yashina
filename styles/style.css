@@ -928,5 +928,5 @@ word-wrap: break-word
     }
   }
   .biography-img:hover {
-    -webkit-animation: flip-in-hor-top 3s infinite linear;
+    animation: flip-in-hor-top 3s infinite linear;
   }
