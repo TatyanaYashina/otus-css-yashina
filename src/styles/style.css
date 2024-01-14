@@ -646,7 +646,7 @@ word-wrap: break-word
         margin-top: 344px;       
         width: 100%;
         height: 764px;
-        background-image: url(/img/background-hero-mobile.jpg);
+        background-image: url(../img/background-hero-mobile.jpg);
     }
     .hero {
         height: 344px;
@@ -673,7 +673,7 @@ word-wrap: break-word
         display: none;
     }
     .left-column {
-        background-image: url(/img/Biography-Director-mobile.jpg);
+        background-image: url(../img/Biography-Director-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
@@ -746,7 +746,7 @@ word-wrap: break-word
         display: none;
     }
     .img-designer-big {
-        background-image: url(/img/Jess-Wonder-mobile.jpg);
+        background-image: url(../img/Jess-Wonder-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         flex-shrink: 0;
@@ -809,7 +809,7 @@ word-wrap: break-word
         font-weight: 300;
     }
     .img-right-testimonial {
-        background-image: url(/img/Testimonials-2-mobile.jpg);
+        background-image: url(../img/Testimonials-2-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 320px;
