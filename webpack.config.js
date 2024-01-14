@@ -32,20 +32,7 @@ module.exports  = {
                 test: /\.css$/,
                 use: [
                 'style-loader',
-                'css-loader',
-            // 'sass-loader' 
-            {
-                loader: "postcss-loader",
-                    options: {
-                        postcssOptions: {
-                            plugins: [
-                                "autoprefixer",
-                                "postcss-preset-env",
-                                "cssnano"
-                            ],
-                        },
-                    },
-                },
+                'css-loader'
                
         ],
     },
