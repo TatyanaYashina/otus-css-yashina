@@ -30,15 +30,31 @@ module.exports  = {
             },
             {
                 test: /\.css$/,
-             use: [
-            'style-loader',
-            'css-loader'
+                use: [
+                'style-loader',
+                'css-loader',
             // 'sass-loader' 
+            {
+                loader: "postcss-loader",
+                    options: {
+                        postcssOptions: {
+                            plugins: [
+                                "autoprefixer",
+                                "postcss-preset-env",
+                                "cssnano"
+                            ],
+                        },
+                    },
+                },
+               
         ],
     },
             {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
                 type: 'asset/resource',
+                generator: {
+                    filename: 'assets/[name]-[hash][ext]',
+                }    
             },
         ],
         // devServer: {
