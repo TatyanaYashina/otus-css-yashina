@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/Bitter-Regular.ttf\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/fonts/Bitter/static/Bitter-Regular.ttf?");
+eval("module.exports = __webpack_require__.p + \"assets/Bitter-Regular-6ee5b046d2a7f83131e7.ttf\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/fonts/Bitter/static/Bitter-Regular.ttf?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"assets/Bitter-Regular.ttf\";\n\
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/Biography-Director-mobile.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Biography-Director-mobile.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/Biography-Director-mobile-05925095531e1a6bbe43.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Biography-Director-mobile.jpg?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__.p + \"assets/Biography-Director-mobil
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/Jess-Wonder-mobile.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Jess-Wonder-mobile.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/Jess-Wonder-mobile-dd637ad2dd23e43f59c6.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Jess-Wonder-mobile.jpg?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"assets/Jess-Wonder-mobile.jpg\"
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/Testimonials-2-mobile.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Testimonials-2-mobile.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/Testimonials-2-mobile-543efc578ec656d8a341.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/Testimonials-2-mobile.jpg?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"assets/Testimonials-2-mobile.jp
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/background-hero-mobile.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/background-hero-mobile.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/background-hero-mobile-d34d171c9b2b5908009d.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/background-hero-mobile.jpg?");
 
 /***/ }),
 
@@ -186,7 +186,7 @@ eval("module.exports = __webpack_require__.p + \"assets/background-hero-mobile.j
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/background-hero.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/background-hero.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/background-hero-522e8d00d8228bbb4d88.jpg\";\n\n//# sourceURL=webpack://otus-css-yashina/./src/img/background-hero.jpg?");
 
 /***/ })
 
